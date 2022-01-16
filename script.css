@@ -14,10 +14,7 @@
 body {
   background: url(background-sample.jfif);
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh;
-  min-width: 100vw;
 }
 
 .main-area h1,
