@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Profile</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!--CSS cdn-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="script.css" />
+  </head>
+  <body>
+    <!--Navigation bar-->
+    <div class="opacity-container">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light mt-4">
+          <a class="navbar-brand mx-auto" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a class="nav-item px-4" href="index.html">Home </a>
+              <a class="nav-item px-4" href="about.html">About</a>
+              <a class="nav-item px-4" href="skills.html">Skills</a>
+              <a class="nav-item px-4" href="works.html">Featured works</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!--Main-->
+      <div class="container-fluid main-area">
+        <div class="row justify-content-between">
+          <div class="col-12 col-lg-12 col-xl-12 text-center">
+            <h1>I am <span class="animate"></span></h1>
+            <h4 class="font-prog col-12">
+              I build custom apps & websites that help businesses grow.
+            </h4>
+            <a
+              href="cirriculum-vitae.pdf"
+              download="cv.pdf"
+              class="rounded pt-2 btn"
+            >
+              Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--JavaScript CDN-->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Typing Animation-->
+    <script src="typed.js"></script>
+    <script>
+      var typed = new Typed(".animate", {
+        strings: ["Ronald D. Babailan", "Student.", "Android Developer."],
+        typeSpeed: 45,
+        backSpeed: 45,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

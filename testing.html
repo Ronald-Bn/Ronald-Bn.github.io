@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+        .header-area h2{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            width:100%;
+            text-align: center;
+            margin:0;
+            padding:0;
+            font-family: poppins;
+            color: #fff;
+            font-size: 4.5em;
+            text-shadow: 0 2px 5px rgba(0,0,0,.5);
+        }
+        .header-area h2 span{
+            color: chartreuse;
+        }
+    </style>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header-area">
+            <h2>I'm a <span class="animate"></span></h2>     
+            <span class="animated"></span>   
+    </div>
+
+    <script src="typed.js"></script>
+    <script>
+    var typed = new Typed('.animated', {
+        strings: ['This is a JavaScript library', 'This is an ES6 module'],
+        smartBackspace: true // Default value
+      });
+    </script>
+    <script>
+        var Typed = new Typed('.animate', {
+          strings: [
+            "Developer",
+            "Designer",
+            "Photographer"
+          ],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop:true
+        });
+      </script> 
+</body>
+</html>

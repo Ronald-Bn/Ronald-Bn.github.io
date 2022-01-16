@@ -1,0 +1,145 @@
+@import "typography.css";
+
+.navbar-nav a {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-nav a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),
+    url(background-sample.jfif);
+  background-size: cover;
+}
+
+.main-area h1,
+h4 {
+  text-align: unset;
+}
+
+.main-area {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #ffffff;
+}
+h1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-family: "Courier New", Courier, monospace;
+}
+h4 {
+  color: #ffffff;
+  line-height: 1.6;
+}
+h1 span {
+  color: chartreuse;
+}
+img {
+  width: 200px;
+  height: 100%;
+}
+
+.btn {
+  background-color: #393e46;
+  color: #000000;
+  border-color: #222831;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  color: #ffffff;
+}
+.btn:hover {
+  background-color: #393e46;
+  color: #ffffff;
+  border-color: #222831;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  color: #ffffff;
+}
+#skillset-container {
+  margin-top: 30%;
+  color: white;
+}
+#skillset-container h2 {
+  text-align: center;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+/** Skills **/
+#skillset h4 {
+  text-align: center;
+}
+.row {
+  font-family: "Courier New", Courier, monospace;
+  padding-bottom: 2%;
+  color: #ffffff;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+#skillset > div {
+  border-radius: 2px;
+  border: 1px solid white;
+  box-shadow: 4px 8px #888888;
+}
+.carousel-slide {
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1600px) {
+  #skillset > div {
+    padding-bottom: 5%;
+  }
+}
+
+@media only screen and (max-width: 994px) {
+  .navbar-brand img {
+    visibility: hidden;
+  }
+  img {
+    visibility: unset;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #skillset > div {
+    margin-bottom: 5%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #skillset > div {
+    margin-bottom: 5%;
+  }
+}
+
+.carousel {
+  height: 600px;
+}
+
+.carousel-item,
+.carousel-inner,
+.carousel-inner img {
+  height: 100%;
+  width: auto;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+#portfolio {
+  background: #356;
+}
