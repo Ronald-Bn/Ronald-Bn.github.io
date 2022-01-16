@@ -12,9 +12,12 @@
 }
 
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),
-    url(background-sample.jfif);
+  background: url(background-sample.jfif);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 .main-area h1,
