@@ -15,6 +15,9 @@ body {
   background: url(background-sample.jfif);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 .main-area h1,
@@ -123,23 +126,4 @@ ul {
   #skillset > div {
     margin-bottom: 5%;
   }
-}
-
-.carousel {
-  height: 600px;
-}
-
-.carousel-item,
-.carousel-inner,
-.carousel-inner img {
-  height: 100%;
-  width: auto;
-}
-
-.carousel-item {
-  text-align: center;
-}
-
-#portfolio {
-  background: #356;
 }
