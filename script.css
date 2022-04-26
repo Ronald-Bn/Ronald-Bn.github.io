@@ -17,7 +17,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
-  min-width: 100vw;
+  min-width: 100vh;
 }
 
 .main-area h1,
@@ -91,10 +91,6 @@ ul {
   border-radius: 2px;
   border: 1px solid white;
   box-shadow: 4px 8px #888888;
-}
-.carousel-slide {
-  height: 100%;
-  width: 100%;
 }
 
 @media only screen and (max-width: 1600px) {
