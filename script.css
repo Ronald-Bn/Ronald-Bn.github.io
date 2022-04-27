@@ -1,18 +1,12 @@
 @import "typography.css";
-
-.navbar-nav a {
-  font-size: 20px;
-  font-family: "Courier New", Courier, monospace;
-  letter-spacing: 1px;
-  color: white;
-}
-.navbar-nav a:hover {
-  color: gray;
-  text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background: url(background-sample.jfif);
+  background-color: #fffff0;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -20,63 +14,56 @@ body {
   min-width: 100vh;
 }
 
-.main-area h1,
-h4 {
-  text-align: unset;
+.navbar {
+  background-color: #3d5a80;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 0px 0px 20px 20px;
+  margin: 0px 50px 0px 50px;
+  padding: 20px;
+}
+.navbar-nav a {
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 1px;
+  color: #ffffff;
 }
 
-.main-area {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  text-align: center;
-  color: #ffffff;
+.navbar-nav a:hover {
+  color: #98c1d9;
+  text-decoration: none;
 }
+
 h1 {
-  color: #ffffff;
+  color: #293241;
   font-size: 60px;
   font-family: "Courier New", Courier, monospace;
 }
+
 h4 {
-  color: #ffffff;
+  color: #293241;
   line-height: 1.6;
+  font-family: "Courier New", Courier, monospace;
 }
-h1 span {
-  color: chartreuse;
-}
+
 img {
   width: 200px;
   height: 100%;
 }
 
 .btn {
-  background-color: #393e46;
+  background-color: #3d5a80;
+  color: #000000;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #98c1d9;
   color: #000000;
   border-color: #222831;
   font-size: 20px;
   font-family: "Courier New", Courier, monospace;
-  color: #ffffff;
-}
-.btn:hover {
-  background-color: #393e46;
-  color: #ffffff;
-  border-color: #222831;
-  font-size: 20px;
-  font-family: "Courier New", Courier, monospace;
-  color: #ffffff;
-}
-#skillset-container {
-  margin-top: 30%;
-  color: white;
-}
-#skillset-container h2 {
-  text-align: center;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-}
-/** Skills **/
-#skillset h4 {
-  text-align: center;
 }
 .row {
   font-family: "Courier New", Courier, monospace;
@@ -86,11 +73,6 @@ img {
 }
 ul {
   list-style: none;
-}
-#skillset > div {
-  border-radius: 2px;
-  border: 1px solid white;
-  box-shadow: 4px 8px #888888;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -123,3 +105,7 @@ ul {
     margin-bottom: 5%;
   }
 }
+
+/*Palettes
+    #3d5a80 // #98c1d9 // #e0fbfc // #ee6c4d //#293241
+*/
