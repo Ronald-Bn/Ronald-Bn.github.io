@@ -25,10 +25,7 @@
 .selector-for-some-widget {
   box-sizing: content-box;
 }
-#navbar {
-  width: 100%;
-  display: flex;
-}
+
 .nav_active {
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
 }

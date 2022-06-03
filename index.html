@@ -28,7 +28,7 @@
   </head>
   <body>
     <header class="header" id="header">
-      <nav id="navbar" class="p-3 navbar-expand-lg navbar-dark w3-animate-top">
+      <nav class="navbar p-3 navbar-expand-lg w3-animate-top">
         <a class="navbar-brand mx-auto" href="#"></a>
         <button
           class="navbar-toggler"
@@ -187,7 +187,7 @@
       observer.observe(target);
     </script>
     <script>
-      const nav = document.querySelector("#navbar");
+      const nav = document.querySelector(".navbar");
       window.addEventListener("load", () => {
         if (window.scrollY > 0) {
           nav.classList.add("nav_active");
