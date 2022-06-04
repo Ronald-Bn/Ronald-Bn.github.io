@@ -1,0 +1,28 @@
+.f-12 {
+  font-size: 12px;
+}
+.f-14 {
+  font-size: 14px;
+}
+.f-16 {
+  font-size: 16px;
+}
+.f-18 {
+  font-size: 18px;
+}
+.f-20 {
+  font-size: 20px;
+}
+
+.ff-1 {
+  font-family: "Poppins", Courier, monospace;
+}
+
+.ff-2 {
+  font-family: "Lora", Courier, sans-serif;
+  font-size: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
