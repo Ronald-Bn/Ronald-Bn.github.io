@@ -1,6 +1,6 @@
 @import url("fonts.css");
 @import url("typography.css");
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&family=Lora&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;1,400&family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;1,400&family=Tiro+Gurmukhi&display=swap");
 
 html {
   box-sizing: border-box;
@@ -14,6 +14,30 @@ body {
 .main {
   height: 100vh; /* For 100% screen height */
   width: 100vw; /* For 100% screen width */
+}
+
+.about {
+  padding: 64px;
+  background-color: #3d5a80;
+  color: #ffffff;
+}
+
+.skills {
+  padding: 64px;
+}
+
+.projects {
+  padding: 64px;
+  background-color: #3d5a80;
+  color: #ffffff;
+}
+
+.contact {
+  padding: 64px;
+}
+
+footer {
+  padding: 64px;
 }
 
 .selector-for-some-widget {
@@ -32,7 +56,7 @@ body {
   color: #000000;
   font-size: 14px;
   font-weight: bold;
-  font-family: "Poppins", Courier, sans-serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 2px;
   padding: 20px;
 }
@@ -43,14 +67,14 @@ body {
 }
 
 .headline {
-  font-family: "Poppins", Courier, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 34px;
   font-weight: bolder;
   letter-spacing: 2px;
 }
 
 .paragraph {
-  font-family: "Lora", Courier, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
 }
 
@@ -75,22 +99,39 @@ body {
 .btn {
   background-color: #3d5a80;
   color: #ffffff;
-  font-family: "Poppins", Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .btn:hover {
-  background-color: #98c1d9;
+  background-color: #253950;
   color: #ffffff;
-  border: 1px solid #3d5a80;
+}
+.card-body {
+  color: #000000;
+}
+.me-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: bolder;
 }
 
 @media only screen and (min-width: 1025px) {
   .navbar {
     height: 64px;
   }
+  section {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
 }
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1025px) and (min-width: 600px) {
+  .navbar {
+    height: 64px;
+  }
   .main-section {
     text-align: center;
   }
@@ -99,6 +140,9 @@ body {
 @media only screen and (max-width: 600px) {
   .navbar {
     visibility: hidden;
+  }
+  .me-name {
+    font-size: 34px;
   }
 }
 
