@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Mr. Ronald</title>
+    <title>Ronald D. Babailan</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -26,9 +25,6 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-sm justify-content-end fixed-top">
-        <!-- <a class="navbar-brand" href="#"
-          ><img src="src/R.png" alt="Logo" style="width: 60px; height: 60px"
-        /></a> -->
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a class="nav-item" href="#main">Home </a></li>
           <li class="nav-item">
@@ -48,27 +44,23 @@
     </header>
 
     <section id="main" class="main">
-        <div class="row h-100 justify-content-around align-items-center">
-          <div class="col-lg-6 col-md-6">
-            <div class="main-section">
-              <p class="f-20 ff-2 m-0">Hello! I'm</p>
-              <h4 class="me-name">Ronald Babailan</h4>
-              <p class="f-20 ff-2">I'm a freelance Sofware Developer</p>
-              <a href="Resume.pdf" download="cv.pdf" class="btn">Download CV</a>
-            </div>
+      <div class="row h-100 justify-content-around align-items-center">
+        <div class="col-lg-6 col-md-6">
+          <div class="main-section">
+            <p class="f-20 ff-2 m-0">Hello! I'm</p>
+            <h4 class="me-name">Ronald Babailan</h4>
+            <p class="f-20 ff-2">I'm a <span class="typed"></span></p>
+             <a href="Babailan-Ronald-CV.pdf" download="Babailan-Ronald-CV.pdf" class="btn">Download CV</a>
           </div>
-          <div class="col-lg-4 col-xl-4 col-md-6 align-items-end">
+        </div>
+          <div class="col-lg-5 col-xl-5 col-md-6 align-items-end">
             <div class="main-section ">
-              <img
-                src="src/ronald.png"
-                style="width: 100%; height: 100%"
-                alt=""
-              />
+              <img src="src/ronald.png" style="width: 100%; height: 100%" alt="male-with-formal-attire"/>
             </div>
       </div>
     </section>
 
-    <section id="about" class="about">
+    <section id="about" class="about bg-dark">
       <div class="row justify-content-center mb-4 pt-4">
         <div class="col-lg-8 col-md-8 text-center">
           <h2 class="headline text-center">ABOUT ME</h2>
@@ -76,10 +68,7 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-lg-4 col-md-4 text-center">
-          
-        </div>
-        <div class="col-lg-12 col-md-12 about-header">
+        <div class="col-lg-10 col-md-10 about-header">
           <p class="paragraph text-justify">
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
             dignissim lectus sem, at faucibus urna eleifend id. Sed viverra,
@@ -105,7 +94,7 @@
       </div>
     </section>
 
-    <section id="projects" class="projects">
+    <section id="projects" class="projects bg-dark">
       <div class="container my-1 pt-4 text-center">
         <div class="row mb-2">
           <div class="col">
@@ -114,31 +103,31 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row d-flex justify-content-around">
           <div class="col-lg-6 pt-4">
             <div class="card">
               <a href="#"
                 ><img
-                  src="https://picsum.photos/500/300"
+                  src="src//chasyproducts-min.PNG"
                   alt=""
                   class="card-img-top"
               /></a>
               <div class="card-body">
-                <h3 class="f-20 ff-1">POS system using C#</h3>
-                <h5></h5>
-                <p class="paragraph">
-                  I created this POS system when i was 3rd year college. I
-                  learned so much when I
+                <h5 class="ff-1 card-title">Admin panel web application</h5>
+                <p class="ff-2 cart-text">
+                    Admin panel web-based application for Chasy Products.
                 </p>
-                <div class="d-flex flex-row justify-content-center">
-                  <div class="p-2">
-                    <a class="btn" href="#">Demo </a>
-                  </div>
-                  <div class="p-2">
-                    <a class="btn" href="#"
-                      >Source Code <i class="fa fa-code"></i
-                    ></a>
-                  </div>
+                <div class="col-12 col-md-6 col-lg-6 m-auto">
+                  <span class="f-12 bg-primary text-light rounded pl-4 pr-4 ff-2">HTML</span>
+                  <span class="f-12 bg-danger text-light rounded pl-4 pr-4 ff-2">CSS</span>
+                  <span class="f-12 bg-success text-light rounded pl-4 pr-4 ff-2">Bootstrap</span>
+                  <span class="f-12 bg-warning text-light rounded pl-4 pr-4 ff-2">JavaScript</span>
+                  <span class="f-12 bg-danger text-light rounded  pl-4 pr-4 ff-2">PHP</span>
+                  <span class="f-12 bg-secondary text-light rounded pl-4 pr-4 ff-2">Firebase</span>
+                </div>  
+                <div class="col-12 col-md-12 col-lg-12 mt-4">
+                  <a class="btn btn-info" href="https://chasyproducts.000webhostapp.com" target="_blank">Demo</a>
+                  <a class="btn btn-info" href="https://github.com/Ronald-Bn/inventory-system" target="_blank"> Code <i class="fa fa-github"></i></a>
                 </div>
               </div>
             </div>
@@ -146,57 +135,23 @@
 
           <div class="col-lg-6 pt-4">
             <div class="card">
-              <a href="#"
-                ><img
-                  src="https://picsum.photos/500/300"
-                  alt=""
-                  class="card-img-top"
-              /></a>
+              <a href="#"><img src="src/redcamia-min.PNG" alt="" class="card-img-top"/></a>
               <div class="card-body">
-                <h3 class="f-20 ff-1">POS system using C#</h3>
-                <h5></h5>
-                <p class="paragraph">
-                  I created this POS system when i was 3rd year college. I
-                  learned so much when I
+                <h5 class="ff-1 card-title">Red Camia Inventory System</h5>
+                <p class="ff-2 cart-text">
+                    Inventory web-based application for Red Camia.
                 </p>
-                <div class="d-flex flex-row justify-content-center">
-                  <div class="p-2">
-                    <a class="btn" href="#">Demo </a>
-                  </div>
-                  <div class="p-2">
-                    <a class="btn" href="#"
-                      >Source Code <i class="fa fa-code"></i
-                    ></a>
-                  </div>
+                <div class="col-12 col-md-6 col-lg-6 m-auto">
+                  <span class="f-12 bg-danger text-light rounded  pl-4 pr-4 ff-2">HTML</span>
+                  <span class="f-12 bg-secondary text-light rounded pl-4 pr-4 ff-2">CSS</span>
+                  <span class="f-12 bg-success text-light rounded pl-4 pr-4 ff-2">Bootstrap</span>
+                  <span class="f-12 bg-warning text-light rounded pl-4 pr-4 ff-2">JavaScript</span>
+                  <span class="f-12 bg-primary text-light rounded pl-4 pr-4 ff-2">PHP</span>
+                  <span class="f-12 bg-danger text-light rounded pl-4 pr-4 ff-2">MySQL</span>
                 </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 pt-4">
-            <div class="card">
-              <a href="#"
-                ><img
-                  src="https://picsum.photos/500/300"
-                  alt=""
-                  class="card-img-top"
-              /></a>
-              <div class="card-body">
-                <h3 class="f-20 ff-1">POS system using C#</h3>
-                <h5></h5>
-                <p class="paragraph">
-                  I created this POS system when i was 3rd year college. I
-                  learned so much when I
-                </p>
-                <div class="d-flex flex-row justify-content-center">
-                  <div class="p-2">
-                    <a class="btn" href="#">Demo </a>
-                  </div>
-                  <div class="p-2">
-                    <a class="btn" href="#"
-                      >Source Code <i class="fa fa-code"></i
-                    ></a>
-                  </div>
+                <div class="col-12 col-md-12 col-lg-12 mt-4">
+                    <a class="btn btn-info" href="https://redcamiainventorysystem.000webhostapp.com/login.php" target="_blank">Demo</a>
+                    <a class="btn btn-info" href="https://github.com/Ronald-Bn/inventory-system" target="_blank"> Code <i class="fa fa-github"></i></a>
                 </div>
               </div>
             </div>
@@ -253,25 +208,12 @@
                     </div>
                     <div class="mt-4">
                       <p class="f-20 ff-2">
-                        <span>Address:</span> 198 West 21th Street, Suite 721
-                        New York NY 10016
+                        <span>Address:</span> Bagumbong Caloocan city, Metro Manila 1420
                       </p>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-3">
-                  <div class="dbox w-100 text-center">
-                    <div class="rounded-button">
-                      <span class="fa fa-phone"></span>
-                    </div>
-                    <div class="mt-4">
-                      <p class="f-20 ff-2">
-                        <span>Phone:</span>
-                        <a>+63 9068 341 9451</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                
                 <div class="col-md-3">
                   <div class="dbox w-100 text-center">
                     <div class="rounded-button">
@@ -280,8 +222,7 @@
                     <div class="mt-4">
                       <p class="f-20 ff-2">
                         <span>Email:</span>
-                        <a
-                          href="/cdn-cgi/l/email-protection#1e777078715e67716b6c6d776a7b307d7173"
+                        <a href="mailto:ronaldbabailan0026@gmai.com"
                           ><span
                             class="__cf_email__"
                             data-cfemail="8de4e3ebe2cdf4e2f8fffee4f9e8a3eee2e0"
@@ -314,8 +255,18 @@
       </div>
     </section>
 
-    <footer>
-      <div class=""></div>
+    <footer class="bg-dark">
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-4 text-center">
+          <p class="f-16 ff-1">Social Media Contacts</p>
+          <a href="https://www.facebook.com/profile.php?id=100009021094163" class="btn"><span class="fa fa-linkedin"></span></a>
+          <a href="https://www.facebook.com/profile.php?id=100009021094163" class="btn"><span class="fa fa-facebook"></span></a>
+          <a href="https://www.facebook.com/profile.php?id=100009021094163" class="btn"><span class="fa fa-envelope"></span></a>
+        </div>
+        <div class="col-lg-12 col-md-12 text-center p-4">
+          <p class="f-16 ff-1">&copy; All rights reserved.</p>
+        </div>
+      </div>
     </footer>
 
     <script
@@ -344,6 +295,16 @@
           nav.classList.remove("nav_active");
         }
       });
+    </script>
+    <script src="typed.js"></script>
+    <script>
+      var typed = new Typed('.typed', {
+          strings: ['Web Developer', 'Security Analyst'],
+          typeSpeed: 50,
+          backSpeed: 50,
+          backDelay: 1500,
+          loop:true 
+        });
     </script>
   </body>
 </html>
