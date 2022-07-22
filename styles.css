@@ -16,9 +16,9 @@ body {
   width: 100vw; /* For 100% screen width */
 }
 
-.about {
-  padding: 64px 0px 64px 0px;
-  color: #ffffff;
+.services {
+  width: 100%;
+  margin: 64px 0px 64px 0px;
 }
 
 .skills {
@@ -26,7 +26,7 @@ body {
 }
 
 .projects {
-  padding: 64px;
+  padding: 64px 0px 64px 0px;
   color: #ffffff;
 }
 
@@ -44,15 +44,12 @@ footer {
   box-sizing: content-box;
 }
 
-.navbar {
-  background-color: #ffffff;
-}
-
 .nav_active {
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
 }
 
 .navbar-nav a {
+  text-decoration: none;
   color: #000000;
   font-size: 14px;
   font-weight: bold;
@@ -78,41 +75,40 @@ footer {
   font-size: 16px;
 }
 
-.rounded-button {
-  width: 60px;
-  height: 60px;
-  background: #3d5a80;
-  color: #ffffff;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  border-radius: 50%;
-  border: none;
-  text-decoration: none;
-}
-
-.rounded-button:hover {
-  text-decoration: none;
-}
-
-.btn {
-  background-color: #3d5a80;
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-}
-
-.btn:hover {
-  background-color: #253950;
-  color: #ffffff;
-}
-.card-body {
-  color: #000000;
-}
-.me-name {
+.name {
   font-family: "Poppins", sans-serif;
   font-size: 60px;
   font-weight: bolder;
+}
+
+.skills-logo {
+  float: left;
+  width: 100px;
+  height: 100px;
+  object-fit: fill;
+}
+
+.main-btn {
+  color: #000000;
+}
+
+.resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #0563bb;
+  position: relative;
+}
+
+.resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #0563bb;
 }
 
 @media only screen and (min-width: 1025px) {
@@ -132,8 +128,19 @@ footer {
   .navbar {
     height: 64px;
   }
-  .main-section {
-    text-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+  .profile-pic {
+    display: none;
+  }
+  .projects {
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .profile-links {
+    display: none;
   }
 }
 
