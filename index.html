@@ -7,68 +7,96 @@
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet" type="text/css"/>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-sm justify-content-end fixed-top">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-item" href="#main">Home </a></li>
-          <li class="nav-item">
-            <a class="nav-item" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-item" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-item" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-item" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="navbar navbar-expand-sm justify-content-end fixed-top">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-item" href="#main">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <section id="main" class="main">
       <div class="row h-100 justify-content-around align-items-center">
-        <div class="col-lg-6 col-md-6">
+        <div class="col-10 col-sm-10 col-md-10 col-lg-5">
           <div class="main-section">
             <p class="f-20 ff-2 m-0">Hello! I'm</p>
-            <h4 class="me-name">Ronald Babailan</h4>
+            <h4 class="name">Ronald Babailan</h4>
             <p class="f-20 ff-2">I'm a <span class="typed"></span></p>
-             <a href="Babailan-Ronald-CV.pdf" download="Babailan-Ronald-CV.pdf" class="btn">Download CV</a>
+            <a href="Babailan-Ronald-CV.pdf" download="Babailan-Ronald-CV.pdf" class="btn btn-outline-primary">Download CV</a>
+            <div class="col-lg-12 col-md-12 text-end profile-links">
+              <div class="p-2">
+                <a href="https://www.linkedin.com/in/ronald-babailan/" class="btn btn-outline-primary" target="_blank" style="width: 40px;"><span class="fa fa-linkedin"></span></a>
+              </div>
+              <div class="p-2">
+                  <a href="https://www.facebook.com/profile.php?id=100009021094163" class="btn btn-outline-primary" style="width: 40px;"><span class="fa fa-facebook"></span></a>
+              </div>
+              <div class="p-2">
+                  <a href="https://www.facebook.com/profile.php?id=100009021094163" class="btn btn-outline-primary" style="width: 40px;"><span class="fa fa-envelope"></span></a>
+              </div>
+            </div>
           </div>
         </div>
-          <div class="col-lg-5 col-xl-5 col-md-6 align-items-end">
+          <div class="col-lg-5 col-xl-5 col-md-5 align-items-end profile-pic">
             <div class="main-section ">
-              <img src="src/ronald.png" style="width: 100%; height: 100%" alt="male-with-formal-attire"/>
+              <img src="src/ronald.png" style="width: 100%; height:min-content;" alt="male-with-formal-attire"/>
             </div>
-      </div>
+        </div>
     </section>
 
-    <section id="about" class="about bg-dark">
-      <div class="row justify-content-center mb-4 pt-4">
-        <div class="col-lg-8 col-md-8 text-center">
-          <h2 class="headline text-center">ABOUT ME</h2>
+    <section id="services" class="services bg-light">
+      <div class="row justify-content-around mb-4 pt-4">
+        <div class="col-lg-4 col-md-3 text-center">
+          <h2 class="headline text-center">WHAT I DO</h2>
           <p class="paragraph text-center">Let me introduce myself.</p>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-lg-10 col-md-10 about-header">
+      <div class="row justify-content-center text-justify">
+        <div class="col-lg-4 col-md-3 about-header">
+          <p class="paragraph text-center">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+            dignissim lectus sem, at faucibus urna eleifend id. Sed viverra,
+            orci nec varius egestas, tellus neque dapibus ex, vestibulum
+            ullamcorper sem urna ac libero. Morbi a tempor lorem. Nullam
+            accumsan consequat pulvinar. Etiam vel ipsum eget urna consequat
+            consequat ut in lectus. Nam ullamcorper pellentesque sapien, in
+            scelerisque ipsum. Cras iaculis semper diam efficitur venenatis.
+            Aenean elementum lacus dolor, sit amet fringilla ex vel."
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-3 about-header">
+          <p class="paragraph text-justify">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+            dignissim lectus sem, at faucibus urna eleifend id. Sed viverra,
+            orci nec varius egestas, tellus neque dapibus ex, vestibulum
+            ullamcorper sem urna ac libero. Morbi a tempor lorem. Nullam
+            accumsan consequat pulvinar. Etiam vel ipsum eget urna consequat
+            consequat ut in lectus. Nam ullamcorper pellentesque sapien, in
+            scelerisque ipsum. Cras iaculis semper diam efficitur venenatis.
+            Aenean elementum lacus dolor, sit amet fringilla ex vel."
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-3 about-header">
           <p class="paragraph text-justify">
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
             dignissim lectus sem, at faucibus urna eleifend id. Sed viverra,
@@ -82,8 +110,36 @@
         </div>
       </div>
     </section>
+    
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center mb-5">
+            <h2 class="headline">ABOUT ME</h2>
+            <p class="paragraph text-center">Let me introduce myself.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="resume-item col-lg-7 col-md-7 col-12">
+            <h5 class="ff-1"><b>Introduction</b></h/5>
+             <p class="f-20 ff-2 pt-2">
+              I create, design a website and mobile applications  
+             </p>
+          </div>
+          <div class="resume-item col-lg-7 col-md-7 col-12">
+              <h5 class="ff-1"><b>Education</b></h/5>
+              <p class="f-20 ff-2 pt-2">
+                2018 – 2022 <br/>
+                Bachelor of Science in Information Technology<br/>
+                STI College Caloocan, <br/>
+                109 Samson Road corner Caimito Street, Caloocan City 1400
+                </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <section id="skills" class="skills">
+    <section id="skills" class="skills bg-light">
       <div class="row justify-content-center">
         <div class="col-lg-8 col-md-8 about-header">
           <h2 class="headline text-center pt-4">SKILLS</h2>
@@ -91,166 +147,117 @@
             These are tools and frameworks I used when creating projects.
           </p>  
         </div>
+        <div class="row justify-content-around">
+          <div class="col">
+          <img src="src/html-min.png" alt="html-logo" class="skills-logo">
+          </div>
+          <div class="col">
+          <img src="src/css-min.png" alt="css-logo" class="skills-logo">
+        </div>
+          <div class="col">
+          <img src="src/bootstrap-min.png" alt="bootstrap-logo" class="skills-logo">
+        </div>
+          <div class="col">
+          <img src="src/php-min.png" alt="php-logo" class="skills-logo" style="object-fit:contain;">
+        </div>
+          <div class="col">
+          <img src="src/firebase-min.png" alt="firebase-logo" class="skills-logo" style="object-fit:contain;" >
+        </div>
+          <div class="col">
+          <img src="src/mysql-min.png" alt="firebase-logo" class="skills-logo" style="object-fit:contain;">
+        </div>
+        </div>
       </div>
     </section>
 
-    <section id="projects" class="projects bg-dark">
-      <div class="container my-1 pt-4 text-center">
+    <section id="projects" class="projects">
+      <div class="container my-1 pt-4">
         <div class="row mb-2">
           <div class="col">
-            <h2 class="headline text-center">PROJECTS</h2>
-            <p class="paragraph mt-3">These are the projects I've created.</p>
+            <h2 class="headline text-center text-dark">PROJECTS</h2>
+            <p class="paragraph text-center text-dark mt-3">These are the projects I've created.</p>
           </div>
         </div>
 
         <div class="row d-flex justify-content-around">
-          <div class="col-lg-6 pt-4">
+          <div class="col-md-6 col-lg-6 col-xl-4 pt-4">
             <div class="card">
-              <a href="#"
-                ><img
-                  src="src//chasyproducts-min.PNG"
-                  alt=""
-                  class="card-img-top"
-              /></a>
+              <a href="#"><img src="src/redcamia-min.PNG" alt="red-camia-login-page" class="card-img-top border-bottom"/></a>
               <div class="card-body">
-                <h5 class="ff-1 card-title">Admin panel web application</h5>
-                <p class="ff-2 cart-text">
-                    Admin panel web-based application for Chasy Products.
-                </p>
-                <div class="col-12 col-md-6 col-lg-6 m-auto">
-                  <span class="f-12 bg-primary text-light rounded pl-4 pr-4 ff-2">HTML</span>
-                  <span class="f-12 bg-danger text-light rounded pl-4 pr-4 ff-2">CSS</span>
-                  <span class="f-12 bg-success text-light rounded pl-4 pr-4 ff-2">Bootstrap</span>
-                  <span class="f-12 bg-warning text-light rounded pl-4 pr-4 ff-2">JavaScript</span>
-                  <span class="f-12 bg-danger text-light rounded  pl-4 pr-4 ff-2">PHP</span>
-                  <span class="f-12 bg-secondary text-light rounded pl-4 pr-4 ff-2">Firebase</span>
-                </div>  
-                <div class="col-12 col-md-12 col-lg-12 mt-4">
-                  <a class="btn btn-info" href="https://chasyproducts.000webhostapp.com" target="_blank">Demo</a>
-                  <a class="btn btn-info" href="https://github.com/Ronald-Bn/inventory-system" target="_blank"> Code <i class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 pt-4">
-            <div class="card">
-              <a href="#"><img src="src/redcamia-min.PNG" alt="" class="card-img-top"/></a>
-              <div class="card-body">
-                <h5 class="ff-1 card-title">Red Camia Inventory System</h5>
-                <p class="ff-2 cart-text">
+                <h5 class="card-title text-dark ff-1"><b>Red Camia Inventory System</b></h5>
+                <p class="cart-text text-dark ff-2 f-14">
                     Inventory web-based application for Red Camia.
                 </p>
-                <div class="col-12 col-md-6 col-lg-6 m-auto">
-                  <span class="f-12 bg-danger text-light rounded  pl-4 pr-4 ff-2">HTML</span>
-                  <span class="f-12 bg-secondary text-light rounded pl-4 pr-4 ff-2">CSS</span>
-                  <span class="f-12 bg-success text-light rounded pl-4 pr-4 ff-2">Bootstrap</span>
-                  <span class="f-12 bg-warning text-light rounded pl-4 pr-4 ff-2">JavaScript</span>
-                  <span class="f-12 bg-primary text-light rounded pl-4 pr-4 ff-2">PHP</span>
-                  <span class="f-12 bg-danger text-light rounded pl-4 pr-4 ff-2">MySQL</span>
+                <div class="col-12 col-md-6 col-lg-6 text-center m-auto">
+                  <span class="f-12 bg-danger text-light rounded px-3 ff-2">HTML</span>
+                  <span class="f-12 bg-secondary text-light rounded px-3 ff-2">CSS</span>
+                  <span class="f-12 bg-success text-light rounded px-3 ff-2">Bootstrap</span>
+                  <span class="f-12 bg-warning text-light rounded px-3 ff-2">JavaScript</span>
+                  <span class="f-12 bg-info text-light rounded px-3 ff-2">PHP</span>
+                  <span class="f-12 bg-danger text-light rounded px-3 ff-2">MySQL</span>
                 </div>
-                <div class="col-12 col-md-12 col-lg-12 mt-4">
-                    <a class="btn btn-info" href="https://redcamiainventorysystem.000webhostapp.com/login.php" target="_blank">Demo</a>
-                    <a class="btn btn-info" href="https://github.com/Ronald-Bn/inventory-system" target="_blank"> Code <i class="fa fa-github"></i></a>
+                <div class="d-flex justify-content-end align-items-center pt-4">
+                  <div class="btn-group">
+                    <a class="btn btn-primary border" href="https://redcamiainventorysystem.000webhostapp.com/login.php" target="_blank">Demo</a>
+                    <a class="btn btn-primary border" href="https://github.com/Ronald-Bn/inventory-system" target="_blank"><i class="fa fa-github"></i></a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-6 pt-4">
+          <div class="col-md-6 col-lg-6 col-xl-4 pt-4">
             <div class="card">
-              <a href="#"
-                ><img
-                  src="https://picsum.photos/500/300"
-                  alt=""
-                  class="card-img-top"
-              /></a>
+              <a href="#"><img src="src//chasy-products-min.PNG" alt="chasy-product-login-page" class="card-img-top border-bottom"/></a>
               <div class="card-body">
-                <h3 class="f-20 ff-1">POS system using C#</h3>
-                <h5></h5>
-                <p class="paragraph">
-                  I created this POS system when i was 3rd year college. I
-                  learned so much when I
+                <h5 class="ff-1 card-title text-dark"><b>Admin Panel Web Application</b></h5>
+                <p class="cart-text text-dark ff-2 f-14">
+                    Admin panel web-based application for Chasy Products.
                 </p>
-                <div class="d-flex flex-row justify-content-center">
-                  <div class="p-2">
-                    <a class="btn" href="#">Demo </a>
+                <div class="col-12 col-md-12 col-lg-6 text-center m-auto">
+                  <span class="f-12 bg-info text-light rounded px-3 ff-2">HTML</span>
+                  <span class="f-12 bg-danger text-light rounded px-3 ff-2">CSS</span>
+                  <span class="f-12 bg-success text-light rounded px-3 ff-2">Bootstrap</span>
+                  <span class="f-12 bg-warning text-light rounded px-3 ff-2">JavaScript</span>
+                  <span class="f-12 bg-danger text-light rounded px-3 ff-2">PHP</span>
+                  <span class="f-12 bg-secondary text-light rounded px-3 ff-2">Firebase</span>
+                </div>
+                <div class="d-flex justify-content-end align-items-center pt-4">
+                  <div class="btn-group">
+                    <a class="btn btn-primary border" href="https://chasyproducts.000webhostapp.com" target="_blank">Demo</a>
+                    <a class="btn btn-primary border" href="https://github.com/Ronald-Bn/mobile-ordering-system-web-admin-panel" target="_blank"><i class="fa fa-github"></i></a>
                   </div>
-                  <div class="p-2">
-                    <a class="btn" href="#"
-                      >Source Code <i class="fa fa-code"></i
-                    ></a>
+                </div>  
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-6 col-xl-4 pt-4">
+            <div class="card">
+              <a href="#"><img src="src/chasy-products-mobile-min.PNG" alt="red-camia-login-page" class="card-img-top border-bottom"/></a>
+              <div class="card-body">
+                <h5 class="card-title text-dark ff-1"><b>Mobile Ordering System</b></h5>
+                <p class="cart-text text-dark ff-2 f-14">
+                    Mobile Ordering system for Chasy Products.
+                </p>
+                <div class="col-12 col-md-6 col-lg-6 text-center m-auto">
+                  <span class="f-12 bg-success text-light rounded px-3 ff-2">Android Studio</span>
+                  <span class="f-12 bg-warning text-light rounded px-3 ff-2">XML</span>
+                  <span class="f-12 bg-danger text-light rounded px-3 ff-2">SDK</span>
+                  <span class="f-12 bg-secondary text-light rounded px-3 ff-2">Java</span>
+                  <span class="f-12 bg-info text-light rounded px-3 ff-2">Adobe&nbspXD</span>
+                  <span class="f-12 bg-danger text-light rounded px-3 ff-2">Firebase</span>
+                </div>
+                <div class="d-flex justify-content-end align-items-center pt-4">
+                  <div class="btn-group">
+                    <a class="btn btn-primary border" href="https://redcamiainventorysystem.000webhostapp.com/login.php" target="_blank">Demo</a>
+                    <a class="btn btn-primary border" href="https://github.com/Ronald-Bn/mobile-ordering-system-mobile-app" target="_blank"><i class="fa fa-github"></i></a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
 
-    <section id="contact" class="contact">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-6 text-center mb-5">
-            <h2 class="headline">CONTACTS</h2>
-            <p class="paragraph text-center">Get in touch</p>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-12">
-            <div class="wrapper">
-              <div class="row mb-5">
-                <div class="col-md-3">
-                  <div class="dbox w-100 text-center">
-                    <div class="rounded-button">
-                      <span class="fa fa-map-marker"></span>
-                    </div>
-                    <div class="mt-4">
-                      <p class="f-20 ff-2">
-                        <span>Address:</span> Bagumbong Caloocan city, Metro Manila 1420
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="col-md-3">
-                  <div class="dbox w-100 text-center">
-                    <div class="rounded-button">
-                      <span class="fa fa-paper-plane"></span>
-                    </div>
-                    <div class="mt-4">
-                      <p class="f-20 ff-2">
-                        <span>Email:</span>
-                        <a href="mailto:ronaldbabailan0026@gmai.com"
-                          ><span
-                            class="__cf_email__"
-                            data-cfemail="8de4e3ebe2cdf4e2f8fffee4f9e8a3eee2e0"
-                            >ronaldbabailan0026@gmail.com</span
-                          ></a
-                        >
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="dbox w-100 text-center">
-                    <div class="rounded-button">
-                      <span class="fa fa-globe"></span>
-                    </div>
-                    <div class="mt-4">
-                      <p class="f-20 ff-2">
-                        <span>Website:</span>
-                        <a href="https://ronald-bn.github.io/"
-                          >ronald-bn.github.io</a
-                        >
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -259,27 +266,17 @@
       <div class="row justify-content-center">
         <div class="col-lg-4 col-md-4 text-center">
           <p class="f-16 ff-1">Social Media Contacts</p>
-          <a href="https://www.facebook.com/profile.php?id=100009021094163" class="btn"><span class="fa fa-linkedin"></span></a>
-          <a href="https://www.facebook.com/profile.php?id=100009021094163" class="btn"><span class="fa fa-facebook"></span></a>
-          <a href="https://www.facebook.com/profile.php?id=100009021094163" class="btn"><span class="fa fa-envelope"></span></a>
+          <a href="https://www.linkedin.com/in/ronald-babailan/" class="btn btn-primary" target="_blank"><span class="fa fa-linkedin"></span></a>
+          <a href="https://www.facebook.com/profile.php?id=100009021094163" class="btn btn-primary"><span class="fa fa-facebook"></span></a>
+          <a href="https://www.facebook.com/profile.php?id=100009021094163" class="btn btn-primary"><span class="fa fa-envelope"></span></a>
         </div>
         <div class="col-lg-12 col-md-12 text-center p-4">
           <p class="f-16 ff-1">&copy; All rights reserved.</p>
         </div>
       </div>
     </footer>
-    <!-- cdn jquery -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <!-- popperjs -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
     <!-- on load navbar -->
     <script>
       const nav = document.querySelector(".navbar");
@@ -293,6 +290,7 @@
       window.addEventListener("scroll", () => {
         if (window.scrollY > 0) {
           nav.classList.add("nav_active");
+          nav.classList.add("bg-white")
         } else {
           nav.classList.remove("nav_active");
         }
